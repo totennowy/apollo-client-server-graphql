@@ -1,0 +1,27 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  border: {
+    style: solid;
+    width: 2px;
+    color: #2c2c2c;
+  };
+
+  .wrap_title {
+    font: {
+      size: 30px;
+      weight: 700;
+    };
+    text-align: center;
+  }
+
+  .wrap_list_header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    padding: 10px;
+  }
+
+}

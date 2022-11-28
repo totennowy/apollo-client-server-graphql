@@ -1,0 +1,38 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  padding: 20px 0;
+  border: {
+    style: solid;
+    width: 2px;
+    color: #2c2c2c;
+  };
+
+  .wrap_title {
+    font: {
+      size: 30px;
+      weight: 700;
+    };
+    text-align: center;
+  }
+
+  .wrap_user {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 4px;
+    font: {
+      size: 22px;
+      weight: 500;
+    };
+  }
+
+  .user_list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 4px;
+  }
+}

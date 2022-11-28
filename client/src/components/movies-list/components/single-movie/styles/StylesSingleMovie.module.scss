@@ -1,0 +1,13 @@
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  padding: 10px;
+  border: {
+    bottom: {
+      style: solid;
+      width: 1px;
+      color: #1e1e1e;
+    };
+  };
+}
